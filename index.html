@@ -19,14 +19,14 @@
 
                 <img class="w-[180px] lg:w-[219px] h-[32px]" src="./assets/TechWave.png" alt="logo">
 
-                <ul class="hidden lg:flex items-center gap-10 text-white ">
+                <ul class="hidden lg:flex items-center gap-10 text-white cursor-pointer font-Inter">
                     <li>About</li>
                     <li>Episodes</li>
                     <li>Host</li>
                 </ul>
 
-                <div class=" hidden lg:flex items-center">
-                    <button class=" btn "> Subscribe <i class=" fa-solid fa-arrow-right"></i></button>
+                <div class=" hidden lg:flex items-center ">
+                    <button class=" btn cursor-pointer  "> Subscribe <i class=" fa-solid fa-arrow-right"></i></button>
                 </div>
                 <button class="lg:hidden text-white text-2xl">
                     <i class="fa-solid fa-bars"></i>
@@ -35,6 +35,7 @@
         </nav>
     </header>
     <main>
+        <!-- banner section -->
         <section>
             <div class="w-full 
                         bg-[url('./assets/hero-bg.png')]
@@ -48,7 +49,7 @@
                         <img class="w-[40px] sm:w-[50px] lg:w-[70px]" src="./assets/microphone.png"
                             alt="microphone.png">
                         <p
-                            class="absolute top-3 right-[-42px] lg:top-5 lg:right-[-10px] text-[#1A0B2E] bg-[#00FF88] rounded-[15px] px-4 py-2">
+                            class="absolute top-3 right-[-42px] lg:top-5 lg:right-[-10px] text-[#1A0B2E] bg-[#00FF88] rounded-[15px] px-4 py-2 font-Inter">
                             NEW</p>
                     </div>
                     <div class="flex flex-col justify-center items-center py-2 ">
@@ -59,8 +60,9 @@
                             hacks,
                             and personal growth</p>
                         <div class="mt-8 flex justify-center items-center gap-5">
-                            <button class=" btn "><i class="fa-brands fa-spotify"></i> Listen on Spotify</button>
-                            <button class=" btn-2 "><i class="fa-regular fa-envelope"></i> Subscribe</button>
+                            <button class=" btn font-Inter "><i class="fa-brands fa-spotify "></i> Listen on
+                                Spotify</button>
+                            <button class=" btn-2 font-Inter"><i class="fa-regular fa-envelope"></i> Subscribe</button>
                         </div>
                     </div>
                 </div>
@@ -68,6 +70,92 @@
 
             </div>
         </section>
+        <!-- about section -->
+        <section class="bg-[#1A0B2E] py-10 lg:py-20">
+            <div class="container max-w-7xl mx-auto text-center text-white">
+                <h2 class="text-3xl lg:text-5xl font-bold py-5 lg:py-10font-Inter">About the Podcast</h2>
+                <p class="text-base  text-center px-5 lg:px-50font-Inter">TechWave is your go-to podcast for staying
+                    ahead in the
+                    fast-paced world of technology. We break down complex topics into digestible insights, explore
+                    productivity strategies that actually work, and share stories of personal growth from industry
+                    leaders. Join thousands of young professionals and tech enthusiasts who start their day with
+                    TechWave.</p>
+                <hr class="w-80 lg:w-full mx-auto border-t border-white/10 my-8 lg:my-12">
+            </div>
+            <div class="container max-w-7xl mx-auto ">
+                <div class="grid grid-cols-2 lg:grid-cols-4 ">
+                    <div class="flex flex-col justify-center items-center ">
+                        <h5 class="text-2xl lg:text-5xl text-[#00FF88] font-bold font-Inter py-3">150K+</h5>
+                        <p class="text-base font-Inter text-white">Monthly Listeners</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center ">
+                        <h5 class="text-2xl lg:text-5xl text-[#00FF88] font-bold font-Inter py-3">200+</h5>
+                        <p class="text-base font-Inter text-white">Episodes Published</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center ">
+                        <h5 class="text-2xl lg:text-5xl text-[#00FF88] font-bold font-Inter py-3">4.9★</h5>
+                        <p class="text-base font-Inter text-white">Average Rating</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center ">
+                        <h5 class="text-2xl lg:text-5xl text-[#00FF88] font-bold font-Inter py-3">50+</h5>
+                        <p class="text-base font-Inter text-white">Industry Experts</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- TechWave section -->
+        <section class="bg-[#230E3D] py-10 lg:py-20">
+            <div class="container max-w-7xl mx-auto text-center text-white">
+                <h2 class="text-3xl lg:text-5xl font-bold py-5 lg:py-10font-Inter">Why Choose TechWave</h2>
+            </div>
+            <div class="max-w-7xl mx-auto px-4 py-10">
+                <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center items-center ">
+                    <!--card-1  -->
+                    <div class=" px-5 py-10 lg:py-35 bg-[#2b1558] rounded-[40px]  lg:row-span-2">
+                        <img src="./assets/headphone.png" alt="headphone.png">
+                        <h5 class="text-2xl font-Inter text-white py-5">Premium Audio Quality</h5>
+                        <p class="text-[12px] font-Inter text-white ">Experience crystal-clear sound with
+                            professional-grade recording equipment and expert audio engineering. Every episode is
+                            mastered for optimal listening across all devices and platforms.</p>
+                    </div>
+                    <!-- card-2 -->
+                    <div class=" px-10 py-10 bg-[#2b1558] rounded-[40px] p-10 lg:col-span-3">
+                        <img src="./assets/headphone.png" alt="headphone.png">
+                        <h5 class="text-2xl font-Inter text-white py-5">Mobile Friendly</h5>
+                        <p class="text-[12px] font-Inter text-white ">Listen on the go with seamless mobile experience
+                            and offline downloads.</p>
+                    </div>
+                    <!-- card-3 -->
+                    <div class="px-10 py-10 bg-[#2b1558] rounded-[40px] p-10 lg:col-span-3">
+                        <img src="./assets/location.png" alt="headphone.png">
+                        <h5 class="text-2xl font-Inter text-white py-5">Global Community</h5>
+                        <p class="text-[12px] font-Inter text-white ">Connect with tech enthusiasts from over 120
+                            countries worldwide.</p>
+                    </div>
+                    <!-- card-4 -->
+                    <div class="px-10 py-10 lg:py- bg-[#2b1558] rounded-[40px] p-10 lg:col-span-3">
+                        <img src="./assets/zap-fast.png" alt="headphone.png">
+                        <h5 class="text-2xl font-Inter text-white py-5">Exclusive Interviews</h5>
+                        <p class="text-[12px] font-Inter text-white ">Get unprecedented access to industry titans,
+                            startup founders, and tech visionaries. Our host secures exclusive conversations you won't
+                            find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
+                    </div>
+                    <!-- card-5 -->
+                    <div class="px-5 py-10 bg-[#2b1558] rounded-[40px] p-10 ">
+                        <img src="./assets/resource.png" alt="headphone.png">
+                        <h5 class="text-2xl font-Inter text-white py-5">Rich Resources</h5>
+                        <p class="text-[12px] font-Inter text-white ">Access show notes, transcripts, and additional
+                            learning materials for every episode.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Featured section -->
+         
+        <!-- about section -->
+        <!-- about section -->
     </main>
 
 
